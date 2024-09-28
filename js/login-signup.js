@@ -343,36 +343,6 @@ function updateAccordionContent(category) {
           "Go to your dashboard, click on “Connect with DRM,” and request a call back. Your Dedicated Relationship Manager (DRM) will assist you.",
       },
       {
-        question: "Is there any mobile application for Realezi?",
-        answer: "Yes, Realezi has a mobile application.",
-      },
-      {
-        question: "How does Realezi help me throughout the journey?",
-        answer:
-          "Realezi helps you through the entire process, from understanding your requirements to fulfilling them.",
-      },
-      {
-        question: "Can I delete my account if I no longer need it?",
-        answer: "Yes, you can delete your account.",
-      },
-      {
-        question: "Can I save my favourite properties?",
-        answer: "Yes, you can save your favorite properties.",
-      },
-      {
-        question: "What services can I get access to?",
-        answer:
-          "You can access services related to buying, selling, solar panel, interior design,  architectural, legal aid, financing, and mover and packers.",
-      },
-      {
-        question: "Can I update my profile details after signing-up?",
-        answer: "Yes, you can update your profile details after signing up.",
-      },
-      {
-        question: "Will I be able to track my homeownership journey?",
-        answer: "Yes, you can track your journey on your dashboard.",
-      },
-      {
         question: "What do we mean by individuals?",
         answer:
           "People who want to buy or sell properties or avail services at individual capacity",
@@ -397,18 +367,10 @@ function updateAccordionContent(category) {
           "Realezi helps expedite site visits, provides add-on services, and offers end-to-end assistance during the selling process.",
       },
       {
-        question: "How many properties will I be able to list on Realezi?",
-        answer: "There is no limit to the number of properties you can list.",
-      },
-      {
-        question: "How can I respond to enquiries from potential buyers?",
+        question:
+          "How can I respond to enquiries from potential buyers or tenants?",
         answer:
           "All inquiries will be generated on your dashboard, where you can access and respond to them.",
-      },
-      {
-        question: "In how much time will I be able to verify my account?",
-        answer:
-          "You will need an GST certificate, Aadhaar card, verified phone number, email ID, and address proof.",
       },
     ];
   } else if (category === "vendor") {
@@ -433,10 +395,6 @@ function updateAccordionContent(category) {
         question: "What is the fee for listing my services on Realezi?",
         answer:
           "Currently, there is no upfront fee as Realezi works on a channel partnership model.",
-      },
-      {
-        question: "How can I manage my leads?",
-        answer: "You can manage your leads through your dashboard.",
       },
     ];
   }
