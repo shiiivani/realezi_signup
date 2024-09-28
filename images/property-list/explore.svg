@@ -1,0 +1,27 @@
+<svg width="331" height="76" viewBox="0 0 331 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="9" width="329" height="53" rx="10" fill="url(#paint0_linear_5_12)"/>
+<g opacity="0.3" clip-path="url(#clip0_5_12)">
+<circle cx="20" cy="14.3179" r="22.5" stroke="#33B6FF" stroke-width="5"/>
+</g>
+<g opacity="0.3" clip-path="url(#clip1_5_12)">
+<circle cx="25" cy="25" r="22.5" transform="matrix(-1 0 0 1 334 -9.68237)" stroke="#33B6FF" stroke-width="5"/>
+</g>
+<g opacity="0.3" clip-path="url(#clip2_5_12)">
+<circle cx="165.072" cy="36.0174" r="22.5" transform="rotate(-57.0568 165.072 36.0174)" stroke="#33B6FF" stroke-width="5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5_12" x1="2" y1="35.5" x2="331" y2="35.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#111F3C"/>
+<stop offset="1" stop-color="#111F3C"/>
+</linearGradient>
+<clipPath id="clip0_5_12">
+<rect width="45" height="30" fill="white" transform="translate(0 9.31788)"/>
+</clipPath>
+<clipPath id="clip1_5_12">
+<rect width="45" height="30" fill="white" transform="matrix(-1 0 0 1 329 10.3176)"/>
+</clipPath>
+<clipPath id="clip2_5_12">
+<rect width="55.8587" height="52.6514" fill="white" transform="translate(125.085 46.8772) rotate(-57.0568)"/>
+</clipPath>
+</defs>
+</svg>
