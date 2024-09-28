@@ -152,13 +152,13 @@ p {
   width: auto;
   height: fit-content;
   position: fixed;
-  right: calc(25% - 60px);
+  right: calc(17% - 60px);
   z-index: 100;
   transition: all 0.5s ease-in-out;
 }
 
 .lls-section-form {
-  right: calc(20% - 60px) !important;
+  right: calc(17% - 60px) !important;
   width: 25vw !important;
   max-width: 540px !important;
   top: 15% !important;
@@ -371,11 +371,11 @@ p {
   position: relative;
   transform: translate(-20px, -53px);
 }
-@media screen and (max-width: 1330px) {
+/* @media screen and (max-width: 1330px) {
   #ls-section-form {
     right: 10px;
   }
-}
+} */
 
 @media screen and (max-width: 1150px) {
   #ls-main {
