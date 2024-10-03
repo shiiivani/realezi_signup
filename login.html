@@ -27,11 +27,8 @@
   <main id="ls-main">
     <section id="ls-section-form" class="lls-section-form">
       <div class="form-group">
-        <label for="ls-name">Login</label>
-        <div class="ls-otp-msg align-items-center gap-2">
-          <span>OTP has been sent to 8976330201 </span>
-          <a href="/login.html" class="link ls-orange-txt">Edit</a>
-        </div>
+        <label class="login-heading" for="ls-name">Login</label>
+
         <div class="lls-number-div">
           <select class="form-select" id="ls-countrycode">
             <option value="+91">+91</option>
@@ -41,17 +38,32 @@
             <option value="+971">+971</option>
 
           </select>
-
-          <input type="tel" pattern="[0-9]{10}" autocomplete="off" class="form-control" id="lls-mobile"
-            placeholder="Enter Mobile Number">
+          <!-- <input type="tel" pattern="[0-9]{10}" autocomplete="off" class="form-control" id="lls-mobile"
+            placeholder="Enter Mobile Number"> -->
+          <div class="input-group mobile-input">
+            <input required="" id="lls-mobile" type="tel" pattern="[0-9]{10}" name="mobileNumber" autocomplete="off"
+              class="input form-control" style="border: none">
+            <label for="lls-mobile" class="user-label">Enter Mobile Number</label>
+          </div>
         </div>
-        <input type="number" class="form-control" id="lls-otp" placeholder="Enter OTP">
-        <div style="width: 100%; font-size: 0.8rem; justify-content:  end;" id="resend-div">
+        <!-- <input type="number" class="form-control" id="lls-otp" placeholder="Enter OTP"> -->
+        <div class="input-group" id="lls-otp">
+          <input required="" type="number" name="mobileNumber" autocomplete="off" class="input form-control">
+          <label for="lls-otp" class="user-label">Enter OTP</label>
+        </div>
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="ls-otp-msg align-items-center gap-2">
+            <span style="font-size: 0.8rem">OTP has been sent to 8976330201 </span>
+            <a href="/login.html" class="link ls-orange-txt" style="font-size: 0.8rem">Edit</a>
+          </div>
+          <a href="#" class="text-white text-decoration-none" id="resend-div">Resend</a>
+        </div>
+        <!-- <div style="width: 100%; font-size: 0.8rem; justify-content:  end;" >
           <a href="#" class="text-white text-decoration-none">Resend</a>
-        </div>
+        </div> -->
       </div>
-      <button type="submit" disabled id="continue-btn">Continue</button>
-      <button type="submit" disabled id="continue-btn2">Continue</button>
+      <button type="submit" disabled id="continue-btn" class="mt-3">Continue</button>
+      <button type="submit" disabled id="continue-btn2" class="mt-3">Continue</button>
       <!-- <div class="footer">
         <a href="#" class="link small-text ls-orange-txt">How it works?</a>
         <a href="#ls-faq" class="link small-text">FAQs</a>

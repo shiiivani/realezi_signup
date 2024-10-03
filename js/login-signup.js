@@ -56,7 +56,7 @@ window.onload = function () {
   signupEmail.addEventListener("blur", function () {
     if (signupEmail.value === "") {
       signupEmail.classList.add("ls-input-error");
-      signupEmail.setAttribute("placeholder", "Email is required");
+      // signupEmail.setAttribute("placeholder", "Email is required");
     } else {
       signupEmail.classList.remove("ls-input-error");
     }
@@ -65,7 +65,7 @@ window.onload = function () {
   signupMobile.addEventListener("blur", function () {
     if (signupMobile.value === "") {
       signupMobile.classList.add("ls-input-error");
-      signupMobile.setAttribute("placeholder", "Mobile is required");
+      // signupMobile.setAttribute("placeholder", "Mobile is required");
     } else {
       signupMobile.classList.remove("ls-input-error");
     }
@@ -74,7 +74,7 @@ window.onload = function () {
   signupName.addEventListener("blur", function () {
     if (signupName.value === "") {
       signupName.classList.add("ls-input-error");
-      signupName.setAttribute("placeholder", "Name is required");
+      // signupName.setAttribute("placeholder", "Name is required");
     } else {
       signupName.classList.remove("ls-input-error");
     }
@@ -83,7 +83,7 @@ window.onload = function () {
   signupOtp.addEventListener("blur", function () {
     if (signupOtp.value === "") {
       signupOtp.classList.add("ls-input-error");
-      signupOtp.setAttribute("placeholder", "Invalid OTP");
+      // signupOtp.setAttribute("placeholder", "Invalid OTP");
     } else {
       signupOtp.classList.remove("ls-input-error");
     }
@@ -277,6 +277,7 @@ window.onload = function () {
   });
 
   signupVerifyOtp.addEventListener("click", function () {
+    const otpInput = document.querySelector(".otp-input-group");
     if (signupOtp.value === "") {
       signupOtp.classList.add("ls-input-error");
     } else if (signupOtp.value === "1234") {
@@ -284,6 +285,7 @@ window.onload = function () {
         signupOtp.classList.remove("ls-input-error");
       }
       signupOtp.setAttribute("disabled", "true");
+      otpInput.classList.add("valid");
       signupVerifyOtp.setAttribute("disabled", "true");
       signupVerifyOtp.innerHTML = "Verified";
       document.querySelector("#ls-resend-txt").style.display = "none";

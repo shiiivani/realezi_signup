@@ -34,23 +34,37 @@
                 <input type="radio" id="vendor" name="register-as" value="vendor" class="radio-button">
                 <label for="vendor" class="radio-label">Vendor</label>
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="ls-name">Name*</label>
                 <input type="text" class="form-control" id="ls-name" placeholder="Jacob Dean">
+            </div> -->
+            <div class="input-group">
+                <input required="" id="ls-name" type="text" name="text" autocomplete="off" class="input form-control">
+                <label for="ls-name" class="user-label">Full Name</label>
             </div>
             <div class="form-group">
-                <label for="ls-mobile">Mobile Number*</label>
+                <!-- <label for="ls-mobile">Mobile Number*</label> -->
                 <div class="flex-container">
-                    <input type="text" class="form-control" id="ls-mobile" placeholder="8976330201"
-                        style="flex-grow: 1;">
+                    <!-- <input type="text" class="form-control" id="ls-mobile" placeholder="8976330201"
+                        style="flex-grow: 1;"> -->
+                    <div class="input-group">
+                        <input required="" id="ls-mobile" type="text" name="mobileNumber" autocomplete="off"
+                            class="input form-control">
+                        <label for="ls-mobile" class="user-label">Mobile Number</label>
+                    </div>
                     <button id="ls-send-otp" class="btn">Send OTP</button>
                 </div>
                 <span id="ls-otp-msg" class="ls-orange-txt">We have sent the OTP to 8976330201.</span>
             </div>
             <div class="form-group otp-none">
-                <label for="ls-otp">Enter OTP*</label>
+                <!-- <label for="ls-otp">Enter OTP*</label> -->
                 <div class="otp-container">
-                    <input type="text" class="form-control" id="ls-otp" placeholder="897633" style="flex-grow: 1;">
+                    <!-- <input type="text" class="form-control" id="ls-otp" placeholder="897633" style="flex-grow: 1;"> -->
+                    <div class="input-group otp-input-group">
+                        <input required="" id="ls-otp" type="text" name="otp" autocomplete="off"
+                            class="input form-control" style="flex-grow: 1;">
+                        <label for="ls-otp" class="user-label">Enter OTP</label>
+                    </div>
                     <button id="ls-otp-verify" class="btn">Verify</button>
                     <div class="d-flex flex-column">
                         <span id="ls-resend-txt" class="small-text">
@@ -61,9 +75,14 @@
                 </div>
 
             </div>
-            <div class="form-group">
+            <!-- <div class="form-group">
                 <label for="ls-email">Email*</label>
                 <input type="email" class="form-control" id="ls-email" placeholder="Enter email">
+            </div> -->
+            <div class="input-group form-group">
+                <input required="" id="ls-email" type="email" name="email" autocomplete="off"
+                    class="input form-control">
+                <label for="ls-email" class="user-label">Email</label>
             </div>
             <!--  <div class="form-group">
                 <label>Register As*</label>
@@ -76,7 +95,7 @@
                     <label for="vendor" class="radio-label">Vendor</label>
                 </div>
             </div> -->
-            <button type="submit" disabled id="continue-btn">Continue</button>
+            <button type="submit" disabled id="continue-btn" class="mt-4">Continue</button>
             <div class="footer">
                 <a href="#ls-how-it-works" class="link small-text ls-orange-txt">How it works?</a>
                 <a href="#ls-faq" class="link small-text">FAQs</a>
@@ -95,7 +114,7 @@
         </section>
         <section id="ls-section-bottom" class="container" style="padding-bottom: 20%;">
             <section id="ls-section-metrics" class=" gap-5 d-flex flex-column">
-                <div id="ls-numbers" class="d-flex gap-5 mt-2 w-100 text-black">
+                <!-- <div id="ls-numbers" class="d-flex gap-5 mt-2 w-100 text-black">
 
                     <div style="width: fit-content; text-align: center;"
                         class="d-flex flex-column align-items-center justify-content-center">
@@ -126,7 +145,7 @@
                             Tenants/Buyers
                         </span>
                     </div>
-                </div>
+                </div> -->
                 <h1 id="ls-how-it-works" style="color: #041A40;">
                     How it works
                 </h1>
